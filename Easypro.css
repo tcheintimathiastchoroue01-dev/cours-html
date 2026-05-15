@@ -1,0 +1,125 @@
+*{
+    padding: 0px;/* pour supprimer les marges par défaut de tous les éléments, en définissant la marge à 0 pixels pour tous les éléments de la page*/
+    margin: 0px;/* pour supprimer les marges par défaut de tous les éléments, en définissant la marge à 0 pixels pour tous les éléments de la page*/
+
+}
+header{
+    margin: 10px;/* espace de 10 pixels autour de l'élément header, créant ainsi une marge externe pour séparer le header des autres éléments de la page*/
+    display: flex;/* pour aligner les éléments horizontalement dans le header, en utilisant le modèle de boîte flexible pour organiser les éléments enfants du header sur une ligne*/
+    align-items: center;/* pour centrer verticalement les éléments dans le header, en alignant les éléments enfants du header au centre de leur conteneur parent*/
+    justify-content: space-between;/* pour répartir l'espace entre les éléments dans le header, en utilisant la propriété justify-content avec la valeur space-between pour créer un espace égal entre les éléments alignés horizontalement dans le header*/
+    padding: 10px;/* espace entre le bord du header et son contenu : marge interne dans le header, créant ainsi une marge entre les éléments alignés horizontalement dans le header et les bords du header*/
+}
+.logo{
+    background-color: #9182F9;/* couleur de fond pour les éléments de la classe logo, définie à une teinte de violet clair*/
+    font-size: 45px;/* taille de la police de 45 pixels pour les éléments de la classe logo, augmentant ainsi la taille du texte pour les éléments de la classe logo*/
+    padding: 5px;/* espace entre le bord de la section et son contenu : marge interne dans les éléments de la classe logo, créant ainsi une marge entre le texte et les bords de la section de la classe logo*/
+    border-radius: 10px;/* coins arrondis pour les éléments de la classe logo, créant ainsi un style avec des bords arrondis pour les éléments de la classe logo*/
+    font-weight: bold;/* pour rendre le texte en gras dans les éléments de la classe logo, en appliquant une graisse de police plus épaisse pour les éléments de la classe logo*/
+}
+.logo a{
+    color: white;/* couleur du texte blanc pour les éléments a à l'intérieur des éléments de la classe logo, définissant ainsi la couleur du texte pour les liens contenus dans les éléments de la classe logo*/
+    text-decoration: none;/* pour supprimer la décoration de texte (comme le soulignement) des éléments a à l'intérieur des éléments de la classe logo, créant ainsi un style de lien sans décoration pour les liens contenus dans les éléments de la classe logo*/
+}
+nav{
+    padding: 5px;/* espace entre le bord de la section et son contenu : marge interne dans la section nav, créant ainsi une marge entre les éléments alignés horizontalement dans le nav et les bords du nav*/
+    width: 100%;/* largeur de 100% pour la section nav, prenant ainsi toute la largeur disponible dans son conteneur parent*/
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.L1 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.l2 a{
+    border: #9182F9 solid 2px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: #9182F9;
+    font-size: 18px;
+    text-decoration: none;
+}
+.l2 a:hover{
+    background-color: #9182F9;
+    color: white;
+}
+.l3 a{
+    background-color:  #9182F9;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.l3 a:hover{
+    background-color: white;
+    color:#9182F9;
+    border: #9182F9 solid 2px;
+}
+.milieu{
+    width: 90%;
+    margin: 35px auto;
+    display: flex;
+    background-color: #EEEBFE;
+    border-radius: 25px;
+}
+.gauche{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 40px;
+}
+h1{
+    font-size: 3em;
+}
+.divgauche1 span{
+    font-weight: bold;
+    color: #6D5ACE;
+    font-size: 25px;
+}
+.divgauche1 p{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.divgauche2{
+    display: flex;
+    gap: 30px;
+    width: 70%;
+}
+.lien1{
+    background-color: #6D5ACE;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+.lien1:hover{
+    background-color: white;
+    color: #6D5ACE;
+    border: #6D5ACE solid 2px;
+}
+.lien2{
+    background-color: white;
+    border: #6D5ACE solid 2px;
+    color: #6D5ACE;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+.lien2:hover{
+    background-color: #6D5ACE;
+    color: white;
+}
+.bas{
+    width: 90%;
+    margin: 0px auto;
+    font-size: 30px;
+    font-weight: bold;
+}
